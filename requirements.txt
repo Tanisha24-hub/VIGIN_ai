@@ -1,0 +1,12 @@
+ultralytics
+opencv-python
+paddleocr
+paddlepaddle
+gfpgan
+torch
+torchvision
+numpy
+pandas
+retina-face
+cv2
+yolo 

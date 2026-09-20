@@ -1,0 +1,33 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+
+# Deep Learning Models & Weights (>100MB breaks Git)
+*.pt
+*.onnx
+*.engine
+*.weights
+models/*.pt
+
+# Video and Image Data
+data/input/
+data/raw_videos/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Output Evidence & Caches
+data/output/incidents/
+data/output/cabin_inspections/
+data/output/*.csv
+data/output/*.json
+
+# IDE and OS configurations
+.vscode/
+.idea/
+.DS_Store
