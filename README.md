@@ -12,4 +12,19 @@ An end-to-end intelligent traffic surveillance, metric speed kinematics, ANPR, a
 - `modules/` - Speed estimation, ANPR pipeline, and incident detector
 - `utils/` - Image processing, environmental enhancement, and calibration helpers
 - `config/` - System thresholds and calibration parameters
-- `main.py` - Central orchestrator pipeline
+- `main.py` - Central orchestrator pipeline 
+
+## 🚀 Development Status & Roadmap
+
+> **Status:** `Active Development / In Progress` (Current Milestone: Phase 2 - Advanced Robustness)
+
+| Module / Milestone | Status | Description |
+| :--- | :---: | :--- |
+| **Vehicle Detection & Tracking** | Completed | YOLOv8 + ByteTrack persistent trajectory tracking across occlusions |
+| **ANPR Pipeline** | Completed | Two-stage localization, PaddleOCR, and temporal majority consensus |
+| **Metric Speed Kinematics** | Completed | Inverse Perspective Mapping (Homography) to convert 2D pixels to km/h |
+| **Cabin Safety & HUD** | Completed | Near-field vehicle filtering, CLAHE reflection suppression, and PiP HUD |
+| **Cadence Scheduling** | Completed | Multi-rate loop optimization to preserve 30 FPS throughput |
+| **Environmental Robustness** | In Progress | Integrating Retinex gamma correction and Dark Channel Prior de-hazing |
+| **Multi-Zone Homography** | In Progress | Dynamic matrix switching for sloped terrain, ramps, and flyovers |
+| **Edge Hardware Optimization** | Planned | Model quantization (ONNX FP16 / TensorRT) for NVIDIA Jetson deployment |
